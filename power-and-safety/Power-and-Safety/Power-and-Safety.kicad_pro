@@ -416,6 +416,10 @@
     [
       "d36d0e8d-00a1-4cf6-8b6f-69f787e31cd0",
       "voltage_splits"
+    ],
+    [
+      "af3075d3-2a38-4bcd-a809-2dab83475b4c",
+      "emergency_shutoff"
     ]
   ],
   "text_variables": {}

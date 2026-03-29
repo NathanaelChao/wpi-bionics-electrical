@@ -917,12 +917,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 123.19 22.86 0)
+		(property "Value" "12V_motor"
+			(at 125.73 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1031,6 +1032,12 @@
 			(project "voltage_splits"
 				(path "/0001667d-d09e-45cb-a9a5-b18025e515f4"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "Power-and-Safety"
+				(path "/e28a5393-a52f-43fd-ab49-3e8cb48472a2/d36d0e8d-00a1-4cf6-8b6f-69f787e31cd0"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1269,6 +1276,12 @@
 			(project "voltage_splits"
 				(path "/0001667d-d09e-45cb-a9a5-b18025e515f4"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "Power-and-Safety"
+				(path "/e28a5393-a52f-43fd-ab49-3e8cb48472a2/d36d0e8d-00a1-4cf6-8b6f-69f787e31cd0"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)

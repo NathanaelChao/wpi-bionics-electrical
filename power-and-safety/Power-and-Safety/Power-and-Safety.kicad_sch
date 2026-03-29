@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 631.825 1.27)
+		(size 302.895 205.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af3075d3-2a38-4bcd-a809-2dab83475b4c")
+		(property "Sheetname" "emergency_shutoff"
+			(at 631.825 0.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emergency_shutoff.kicad_sch"
+			(at 631.825 207.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-and-Safety"
+				(path "/e28a5393-a52f-43fd-ab49-3e8cb48472a2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 323.85 1.27)
 		(size 276.86 206.375)
 		(exclude_from_sim no)
